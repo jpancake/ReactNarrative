@@ -1,0 +1,53 @@
+{
+  "firstName": "Jerry",
+  "lastName": "Smittyy",
+  "medicalRecordID": "P42813",
+  "age": "85",
+  "socDate": "06/15/2017",
+  "SNVFrequency": "2w2",
+  "history": ["alcoholism", "drug abuse"],
+  "diagnosis": ["Arthrtis"],
+  "nuero": {
+    "LOC": "AAOx4",
+    "pain": {
+      "location": "right ankle",
+      "scale": "3",
+      "level": "Satisfied with pain medication"
+    }
+  },
+  "cardio": {
+    "heartrate": "Regular",
+    "edema": "none",
+    "vitalSigns": {
+      "temp": "97.4",
+      "pulse": "70",
+      "respiration": "16",
+      "bloodPressure": "120/70",
+      "location": "left",
+      "position": "sitting"
+    }
+  },
+  "GI/GU": {
+    "Diet": "Regular Diet",
+    "Incontinence": {
+      "Urine": "True",
+      "BM": "False"
+    },
+    "tubes": [{ "name": "Foley Cath", "size": "16fr" }]
+  },
+  "Skin": {
+    "wndbed": "dry, intact",
+    "wound": [
+      {
+        "location": "right ankle",
+        "measurements": {
+          "length": 0.4,
+          "width": 0.2,
+          "depth": 0.1
+        },
+        "appearance": "pink, moist",
+        "treatment": "Treatment goes here (:"
+      }
+    ]
+  }
+}
